@@ -19,7 +19,7 @@ function validate(e) {
 
 function vname()
 {
-    let name= document.getElementById("name").value;
+    let name= document.getElementById("name").value.trim();
     let nameError= document.getElementById("nameError");
     nameError.textContent = ""
 
